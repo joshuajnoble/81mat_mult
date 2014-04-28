@@ -6,6 +6,14 @@ Before we begin we should should create a guidebook of sorts for our narrative. 
 
 1. By Hand
 
+  Cayley in 1858 published Memoir on the theory of matrices which is remarkable for containing the first abstract definition of a matrix. He shows that the coefficient arrays studied earlier for quadratic forms and for linear transformations are special cases of his general concept. Cayley gave a matrix algebra defining addition, multiplication, scalar multiplication and inverses. He gave an explicit construction of the inverse of a matrix in terms of the determinant of the matrix. Cayley also proved that, in the case of 2 cross 2 matrices, that a matrix satisfies its own characteristic equation. He stated that he had checked the result for 3 cross 3 matrices, indicating its proof, but says:
+
+  I have not thought it necessary to undertake the labour of a formal proof of the theorem in the general case of a matrix of any degree.
+
+  That a matrix satisfies its own characteristic equation is called the Cayley-Hamilton theorem so its reasonable to ask what it has to do with Hamilton. In fact he also proved a special case of the theorem, the 4 cross 4 case, in the course of his investigations into quaternions.
+
+1. By Hand
+
   The crux of the matrix is simple: N x M elements. We say it like this: "en by em". 3x1, for instance, a vector representing acceleration in three dimensional space.
 
   Two matrices that are simultaneously diagonalizable are always commutative.
@@ -42,13 +50,13 @@ Before we begin we should should create a guidebook of sorts for our narrative. 
   => Matrix[[-3, 15, 19], [-6, 33, 49], [-9, 51, 79]]
 
 
-7. Ruby
+1. Ruby
 
-8. Python
+1. Python
 
-http://en.wikipedia.org/wiki/Narcissism_of_small_differences
+  http://en.wikipedia.org/wiki/Narcissism_of_small_differences
 
-9. Python
+1. Python
 
 1. Processing
 
@@ -79,8 +87,9 @@ http://en.wikipedia.org/wiki/Narcissism_of_small_differences
   Let us incant the matrix once again:
 
 
-
 1. Processing
+
+
 
 1. Processing
 
