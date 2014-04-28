@@ -1,0 +1,174 @@
+.extern printf
+.extern scanf
+.global main
+
+.text
+
+main:
+  push {ip, lr}
+
+  @--read lines and columns of matrix A
+  ldr r0, =scanf2
+  ldr r1, =linesA
+  ldr r2, =columnsA
+  bl scanf
+
+  @--read all values of matrix A
+  ldr r4, =linesA
+  ldr r4, [r4]
+  ldr r5, =columnsA
+  ldr r5, [r5]
+  mul r6, r4, r5
+  ldr r7, =matrixA
+  loop1:
+    cmp r6, #0
+    ble endloop1
+    ldr r0, =scanf1
+    mov r1, r7
+    bl scanf
+    sub r6, r6, #1
+    add r7, r7, #4
+    b loop1
+  endloop1:
+
+  @--read lines and columns of matrix B
+  ldr r0, =scanf2
+  ldr r1, =linesB
+  ldr r2, =columnsB
+  bl scanf
+
+  @--check if matrices are compatible
+  ldr r6, = linesB
+  ldr r6, [r6]
+  ldr r7, = columnsB
+  ldr r7, [r7]
+  cmp r5, r6
+  bne abort
+  
+  @--read all values of matrix B
+  ldr r4, =linesB
+  ldr r4, [r4]
+  ldr r5, =columnsB
+  ldr r5, [r5]
+  mul r6, r4, r5
+  ldr r7, =matrixB
+  loop2:
+    cmp r6, #0
+    ble endloop2
+    ldr r0, =scanf1
+    mov r1, r7
+    bl scanf
+    sub r6, r6, #1
+    add r7, r7, #4
+    b loop2
+  endloop2:
+    
+  @--load all the necessary numbers on registers r4-r9
+  ldr r4, =matrixA
+  ldr r5, =linesA
+  ldr r5, [r5]
+  ldr r6, =columnsA
+  ldr r6, [r6]
+  ldr r7, =matrixB
+  ldr r8, =linesB
+  ldr r8, [r8]
+  ldr r9, =columnsB
+  ldr r9, [r9]
+
+  @--perform calculations and output result
+  mov r0, #0
+  forLinesA:
+    cmp r0, r5
+    bge endForLinesA
+    mov r1, #0
+    forColumnsB:
+      cmp r1, r9
+      bge endForColumnsB
+      mov r2, #0 
+      mov r3, #0
+      multiply:
+        mov r12, #4
+        cmp r3, r6
+        bge endMultiply
+        @--load first element, from matrixA
+        mul r10, r0, r6
+        add r10, r10, r3
+        mul r11, r10, r12
+        add r11, r11, r4
+        ldr r10, [r11]
+        @--load second elements, from matrixB
+        mul r11, r9, r3
+        add r11, r11, r1
+        push {r0}
+        mul r0, r11, r12
+        add r0, r0, r7
+        ldr r11, [r0]
+        pop {r0}
+        @--multiply and add to result variable
+        mul r12, r10, r11
+        add r2, r2, r12
+        @--loop 
+        add r3, r3, #1
+        b multiply
+      endMultiply:
+      @--printf result
+      push {r0-r12}
+      ldr r0, =printfResult
+      mov r1, r2
+      bl printf
+      pop {r0-r12}
+      @--if necessary print white space
+      sub r10, r9, #1
+      cmp r1, r10
+      bge endif
+      push {r0-r12}
+      ldr r0, =printfSpace
+      bl printf
+      pop {r0-r12}
+      endif:
+      @--loop
+      add r1, r1, #1
+      b forColumnsB
+    endForColumnsB:
+    @--loop
+    sub r10, r5, #1
+    cmp r0, r10
+    bge endif2
+    push {r0-r12}
+    ldr r0, =printfNewline
+    bl printf
+    pop {r0-r12}
+    endif2:
+    add r0, r0, #1
+    b forLinesA
+  endForLinesA:        
+
+   b end
+
+  @--abort, imcompatible matrices
+  abort:
+  ldr r0, =printfError
+  bl printf
+
+  @--normal end of program
+  end:
+
+  mov r0, #0
+  pop {ip, pc}
+
+  
+.data
+  linesA: .word 0
+  columnsA: .word 0
+  linesB: .word 0
+  columnsB: .word 0
+  matrixA: .space 400
+  matrixB: .space 400  
+  scanf1: .asciz "%d"
+  scanf2: .asciz "%d %d"
+  printfError: .asciz "Matrizes Incompativeis.n"
+  printfResult: .asciz "%05d"
+  printfSpace: .asciz " "
+  printfNewline: .asciz "n"
+  debug: .asciz "elemento = %dn"
+  debug2: .asciz "offset = %dn"
