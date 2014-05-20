@@ -95,6 +95,10 @@ Before we begin we should should create a guidebook of sorts for our narrative. 
 
 1. Processing
 
+Riding over the Williamsburg bridge you reach into your pocket and realize that two of the grams of cocaine that you had kept in the pocket of your sweatshirt have fallen out onto bridge, somewhere along the way between a bar on the Lower East Side and where you are now, mid-span of the bridge. How strange. And you aren't even worried.
+
+Is is better to have cocaine or is better to have a small hit of heroin? Is it better to like cocaine or is it better to like heroin? Pretend that this a binary operation, there is no "neither".
+
 1. Processing
 
 1. Javascript
@@ -161,7 +165,11 @@ Before we begin we should should create a guidebook of sorts for our narrative. 
 
 1. Flash
 
-1. Flash Math Libs
+Marathon running.
+
+1. Go
+
+Taxicabs. Airplane flights.
 
 1. Go
 
@@ -169,6 +177,14 @@ Before we begin we should should create a guidebook of sorts for our narrative. 
 
   Olga Taussky Todd (1906-1995), who began by using matrices to analyze vibrations on airplanes during World War II and became the torchbearer for matrix theory.
 
+1. Rust
+
+What experience is a network? What experience is a story? I begin at a) I am 7 years old and climbing a tree and I end a b) I have fallen from the tree and dislocated my arm. There is a beginning and an end and time flows through it smoothly. I have tactics for this: words to speed, slow, place, all temporal. All things in time. 
+
+When we experience things in time we experience them like beings.
+
+When we experience things through atemporal relationships, we experience them like facts. We experience a network. So, without using time, now tell me the story of how you fell from a tree at the age of 7.
+
 1. C Naive
 
 1. C Naive
@@ -176,6 +192,28 @@ Before we begin we should should create a guidebook of sorts for our narrative. 
 1. C++ Naive
 
 1. C++ Naive
+
+A white kid from a wealthy family who went to an Ivy League school and has now cashed out his first startup.
+
+An exotic dancer from a small poor California town, black, 
+
+"How much money do you make in an evening?"
+"Why you wanna know about that?"
+"I want to know. I'm asking. I want to know how it works."
+"How what works? This?"
+"No, I want to know how the economics of this work. What time of night you make the most money in, repeat customers, how it works."
+"How's that so interesting."
+"I'll give you $20."
+"You'll give me $100."
+"Ok."
+"Ok, one question, what is it?"
+"No, I get more than one question for $100. People pay me to ask them questions so for you one question is worth $10 and that's being generous even."
+"The. Fuck. It is." she smiles and leans in close to him.
+"Explain that to me."
+"That's your question?"
+"Alright here, that's my question"
+He laid a crisp hundred dollar bill on the table. Why did these places still take cash? Oh, paper trail. But still, so silly, there are easier and better ways to launder money.
+
 
 1. C++ Naive
 
@@ -187,13 +225,23 @@ Before we begin we should should create a guidebook of sorts for our narrative. 
 
 1. OpenCV
 
+Crushing out his unfiltered Camel beneath his boot he runs his fingers through his matted beard and squints at the painting leaned against the wall. Several young men stand semi-circled around him, looking alternately at him, at the painting, at their shoes, into the air. After a moment he strides quickly towards the painting. The young men watch intently. He grabs the painting by its side with a single bearpaw hand and flips it 180 degrees and steps back suddenly.
+
+"Now, now, let's look at that."
+
+They stand in quiet reverence. Birds chirping in the trees that surround the building. The litter of cigarette butts on the floor of the studio speckling paint stains and puddles.
+
 1. OpenCV
+
+She is running a red light on her way to work.
 
 1. OpenCV
 
 1. OF
 
 1. OF
+
+Online.
 
 1. OF
 
@@ -280,64 +328,64 @@ Before we begin we should should create a guidebook of sorts for our narrative. 
 
   we can decompose M into several categories. For instance, distractions; you are obsessed with Gina S and the light bounce of the bob cut that she wears in stark contrast to the stiff teased hair favored by so many of the girls in your grade. You can remember staring into the broad margins of your textbook and trying to sketch the curve of her hairline, hence you cannot remember the beginnings of the explanation non-commutative nature of matrix multiplication. This will be brought to light with your poor performance on a quiz several days later. Also, you will have to erase that line later before returning the book at the end of the school year. These you remember because you can recall trying to mollify your mothers anger with your near zero score on that quiz by telling her about the bob cut. She is both puzzled and frustrated with your grades. Remains, by means of another event. What was the number of that room? It was etched into your mind then of course but now it has completely vanished, as has the route from that room to your locker and vice versa. You remembered it the next year, because you passed by it on the way to a different class (what, of course, has also vanished, perhaps a history class of some sort?). This is simply forgetfulness. There are other factors: the efficacy of senses. The smell? Indistinct. Industrial would be the best guess. The sound? Very much still breathing in the memory hall of recollection. Let us begin to express this, in a greatly reduced form:
 
-  [
-  Non-Commutative Nature of Matrix Multiplication, The Tone of the Whirr of the Projector Fan, The Clinking of the Flagpole Outside
-  Mrs. Sandbergs Gesticulations, The Inkdots at the Termination of Each Character On The Projector Films, How Much Money Do You Have In Your Pocket
-  The Nature of the Textbook, The Room Number of Your Classroom, What Are You Wearing
-  ]
+    [
+    Non-Commutative Nature of Matrix Multiplication, The Tone of the Whirr of the Projector Fan, The Clinking of the Flagpole Outside
+    Mrs. Sandbergs Gesticulations, The Inkdots at the Termination of Each Character On The Projector Films, How Much Money Do You Have In Your Pocket
+    The Nature of the Textbook, The Room Number of Your Classroom, What Are You Wearing
+    ]
 
-  [
-  The Allure of the Bob Cut of Gina S, The Constant-ness of Its Use, How Difficult It Always Is To Pay Attention,
-  How Sad She Seems, How Much You Have Always Loved Handwriting, You Usually Got Free School Lunch,
-  How Dull They All Were, One Can Remember City Streets But Must Walk A Hall To Remember A Home, It Was Nearly Always Something Bland and Indistinguishable From Anyone Else
-  ]
+    [
+    The Allure of the Bob Cut of Gina S, The Constant-ness of Its Use, How Difficult It Always Is To Pay Attention,
+    How Sad She Seems, How Much You Have Always Loved Handwriting, You Usually Got Free School Lunch,
+    How Dull They All Were, One Can Remember City Streets But Must Walk A Hall To Remember A Home, It Was Nearly Always Something Bland and Indistinguishable From Anyone Else
+    ]
 
   We can see how several of these remain, while others approach zero asymptotically: you are aware that you probably had some money in your pocket, the concept of money is still valid both then and now, the denominations, shape, weight, sheen, size, and iconography of it have not even changed. You never lose anything but you may well lose track of it.
 
-  [
-  Nearly Gone (That Explanation Of It Anyways), Perfectly Clear, Again Very Clear, Burned Into Memory
-  Their Existence But Not Their Nature, Very Clear, None,
-  None, They Were All Three Digit Numbers, None, None
-  ]
+    [
+    Nearly Gone (That Explanation Of It Anyways), Perfectly Clear, Again Very Clear, Burned Into Memory
+    Their Existence But Not Their Nature, Very Clear, None,
+    None, They Were All Three Digit Numbers, None, None
+    ]
 
   Perhaps what we need then, Newtonian, is some manner of mapping one matrix into another over time. The day after the introduction of matrices we can assume the following:
 
-  [
-  Never Truly Present, Perfectly Clear, Perfectly Clear, Perfectly Clear
-  Perfectly Clear, Perfectly Clear, Perfectly Clear, Perhaps None You Were Always Horrible With Small Change,
-  Perfectly Clear, Perfectly Clear Though More By Instinct, Perhaps Clear Though Most of Your Wardrobe is Indistinguishable From Itself
-  ]
+    [
+    Never Truly Present, Perfectly Clear, Perfectly Clear, Perfectly Clear
+    Perfectly Clear, Perfectly Clear, Perfectly Clear, Perhaps None You Were Always Horrible With Small Change,
+    Perfectly Clear, Perfectly Clear Though More By Instinct, Perhaps Clear Though Most of Your Wardrobe is Indistinguishable From Itself
+    ]
 
   What function maps one to the other? Or should we say, what matrix of functions map one to the other, as each qualia chosen here, from amongst the hundreds or even thousands available is made of many more, an infinity, or perhaps more analytically a set which is locally bounded. To the degree to which we choose to remember we can limit. To the degree to which we allow our neurosis free reign then the set becomes unbounded and quite quickly at that. But, no, calculus won't be for another two years.
 
   Calculating this by hand, we can assume that we'll, like good students, leverage The Rule of Zaurus. This is not how you would do this today and parenthetically, would you do this today? You would not. You're required to do so long-hand though and in the neatest pencil that you can muster since this is, as much as correctness or intuition, of vital importance: neat lines, correctly formed numbers and letters. Let us begin, you lead the way:
 
-  [
-  L - NCNMM, 0, 0
-  0, L - TITECPF, 0
-  0, 0, L - WAYW
-  ]
+    [
+    L - NCNMM, 0, 0
+    0, L - TITECPF, 0
+    0, 0, L - WAYW
+    ]
 
   and then
 
-  [
-  L - NCNMM, -WPF, -CFO
-  -MSG, L - TITECPF, -HMMDYHIYP
-  -NoT, -RNoYC, L - WAYW
-  ]
+    [
+    L - NCNMM, -WPF, -CFO
+    -MSG, L - TITECPF, -HMMDYHIYP
+    -NoT, -RNoYC, L - WAYW
+    ]
 
   which leads us the rule of Zaurus:
 
-  [
-  L - NCNMM, -WPF, -CFO
-  -MSG, L - TITECPF, -HMMDYHIYP
-  -NoT, -RNoYC, L - WAYW
-  ]
-  [
-  L - NCNMM, -WPF
-  -MSG, L - TITECPF
-  -NoT, -RNoYC
-  ]
+    [
+    L - NCNMM, -WPF, -CFO
+    -MSG, L - TITECPF, -HMMDYHIYP
+    -NoT, -RNoYC, L - WAYW
+    ]
+    [
+    L - NCNMM, -WPF
+    -MSG, L - TITECPF
+    -NoT, -RNoYC
+    ]
 
 
 1. By Hand
@@ -363,5 +411,13 @@ Before we begin we should should create a guidebook of sorts for our narrative. 
   [maps]
 
 1. By Hand
+
+1. Chemical
+
+1. Mass
+
+  http://www.mathworks.com/company/newsletters/articles/the-world-s-largest-matrix-computation.html
+
+1. 
 
 
